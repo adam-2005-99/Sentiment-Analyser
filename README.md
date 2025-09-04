@@ -14,12 +14,6 @@ It also supports **custom training** with your own CSV datasets, provides **expl
 I built this project to **explore Natural Language Processing (NLP)** and understand how machine learning models can process language, make predictions, and explain their reasoning.
 By training on the IMDB dataset, I gained experience with **feature engineering, model training, evaluation, and explainability.**
 
-Key highlights:
-- Built with **Python** and **scikit-learn**
-- Achieves **~89% accuracy** on the IMDB test set
-- Supports **custom training** with your own CSV datasets
-- Includes **model explainability** — see which words affect predictions most!
-
 ---
 
 ## 🚀 Features
@@ -108,7 +102,6 @@ Top positive features:
 amazing, brilliant, beautiful, fantastic...
 Top negative features:
 awful, boring, waste, terrible...
-
 ```
 ---
 
