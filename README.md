@@ -5,22 +5,26 @@
 
 ## 📌 Overview
 This project is a **sentiment analysis tool** that classifies movie reviews as **positive** or **negative** using a **Linear SVM model** trained on the **IMDB dataset**.  
-It uses **TF-IDF vectorization** with character-level n-grams for better performance on noisy text.
+It uses **TF-IDF vectorisation** with character-level n-grams for better performance on noisy text and achieves **~89% accuracy**.
 
-Built with **Python** and **scikit-learn**, the model achieves **~89% accuracy** on the IMDB test set.
-It also supports **custom training** with your own CSV datasets, provides **explainable predictions**, and includes **visualizations** like confusion matrices to better understand model performance.
+Built with **Python** and **scikit-learn**, the project supports: 
+- **Custom training** on your own CSV datasets.
+- **Explainable predictions** showing important features.
+- **Visual performance insights** through confusion matrices.
 
-### 💡 Motivation:
-I built this project to **explore Natural Language Processing (NLP)** and understand how machine learning models can process language, make predictions, and explain their reasoning.
-By training on the IMDB dataset, I gained experience with **feature engineering, model training, evaluation, and explainability.**
-
+---
+## 🧩 Tech Stack:
+- **Language**: Python
+- **Libraries**: scikit-learn, pandas, matplotlib, seaborn
+- **Model**: Linear Support Vector Machine (SVM)
+- **Dataset**: IMDB Reviews
 ---
 
 ## 🚀 Features
 - **Train** the model on IMDB or custom CSV datasets.
 - **Predict** sentiment for any input text.
 - **Explainability**: Understand which features contribute most to the model’s decisions.
-- **Visualizations**: Includes confusion matrix for performance evaluation.
+- **Visualisations**: Includes confusion matrix for performance evaluation.
 
 ---
 
@@ -97,7 +101,7 @@ python3 src/predict.py --text "The movie was absolutely fantastic!"
 python3 src/explain.py
 ```
 ### Example Output:
-```ymal
+```yaml
 Top positive features:
 amazing, brilliant, beautiful, fantastic...
 Top negative features:
@@ -114,12 +118,6 @@ awful, boring, waste, terrible...
 ## 🧑🏻‍💻 Author
 **Name:** Adam Atrash   
 **Email:** adam.m.m.atrash@gmail.com
-
----
-## 🏆 Acknowledgments
-- IMDB Dataset
-- scikit-learn
-- Algoverse AI Research — for inspiring this project.
 
 --- 
 ## 📜 License
